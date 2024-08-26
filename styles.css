@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #14213d;
+    padding: 20px 0;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #14213d;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+main > span {
+    align-self: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fca311;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+}
+
+section div {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #fca311;
+    color: white;
+}
+
+ul {
+    background-color: #fbe8a6;
+    padding: 15px 20px;
+    color: black;
+}
+
+li {
+    background-color: #cba2c9;
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: medium;
+}
+
+ol {
+    background-color: #eaddca;
+    padding: 15px 20px;
+    color: black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #999999;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: large;
+}
+h1 {
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 50px;
+    width: 300px;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    transition: 1s ease all;
+}
+
+h1:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    height: 70px;
+    transform: translateY(-25px) scale(0.9) rotate(360deg);
+}
+
+.li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    display: flex;
+}
+
+li {
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 1s all;
+    weight: 50px;
+}
+
+li:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    transform: translateY(-5px);
+}
+
+#vid {
+    background-color: blue;
+}
+
+#color {
+    background-color: red;
+}
